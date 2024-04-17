@@ -1,6 +1,7 @@
 <script>
 import { store } from '../store.js';
 import AppCard from './AppCard.vue';
+import AppTotal from './AppTotal.vue'
 
 export default {
     name: 'AppCardsList',

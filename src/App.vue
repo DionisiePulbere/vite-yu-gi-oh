@@ -5,14 +5,17 @@ import AppHeader from './components/AppHeader.vue';
 import AppCardsList from './components/AppCardsList.vue';
 import AppFilter from './components/AppFilter.vue';
 
+
 export default{
   components: {
     AppHeader,
     AppCardsList,
     AppFilter,
+   
   },
   data () {
     return{
+      store,
       queryParams: {
         num: 20,
         offset: 0
